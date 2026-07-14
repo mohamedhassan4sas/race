@@ -1,0 +1,11 @@
+                                           schscr40.customers after migration
+
+
+  Obs  customer_id     name  balance
+-----  -----------  -------  -------
+    1            1  Alpha       1500
+    2            2  Bravo       2750
+    3            3  Charlie      990
+    4            4  Delta       4300
+    5            5  Echo         120
+
