@@ -1,0 +1,42 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T020019Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Library SCHSCR35 assigned path=/tmp/work/r_a53aa6ddce604eb096009b95b9727a80/work/8a948218-3ec7-4f97-9419-90858a61cc3e/schscr35.
+NOTE: Library SCHSCR40 assigned path=/tmp/work/r_a53aa6ddce604eb096009b95b9727a80/work/8a948218-3ec7-4f97-9419-90858a61cc3e/schscr40.
+NOTE: DATA schscr35.customers
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote schscr35.customers (5 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA schscr35.accounts
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote schscr35.accounts (5 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC COPY in=schscr35 out=schscr40
+
+NOTE: Copying ACCOUNTS to SCHSCR40.
+NOTE: Copying CUSTOMERS to SCHSCR40.
+NOTE: 2 member(s) copied.
+NOTE: PROC DATASETS library=SCHSCR40
+
+NOTE: 
+                       Directory
+
+       Libref             SCHSCR40
+       Engine             V9
+       Physical Name      /tmp/work/r_a53aa6ddce604eb096009b95b9727a80/work/8a948218-3ec7-4f97-9419-90858a61cc3e/schscr40
+
+       #    Name                             Member Type
+       ----------------------------------------------------
+       1    ACCOUNTS                         DATA
+       2    CUSTOMERS                        DATA
+

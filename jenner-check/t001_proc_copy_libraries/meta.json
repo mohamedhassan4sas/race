@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_proc_copy_libraries",
+  "source_file": "copyDatafrom3_5to4_0.sas",
+  "source_blob_sha": "621fef63c47716afcbe89442b545f3da02e23043",
+  "source_commit": "9979e47989b2423fcb6683fd0864fa208f774032",
+  "notes": "Author's PROC COPY (memtype=data) migrating datasets from a 3.5 PostgreSQL schema to a 4.0 PostgreSQL schema. External DB servers are unreachable, so the two libnames are redirected to local base-engine directories under WORK and the source is seeded with two small mock tables (customers, accounts). The PROC COPY step is unchanged; a confirming PROC DATASETS was added to show the copied members land in the target library."
+}

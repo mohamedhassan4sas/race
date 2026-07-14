@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-14T13:46:13.486994+00:00",
+  "_captured_run_id": "r_a53aa6ddce604eb096009b95b9727a80",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "PROC COPY in=schscr35 out=schscr40",
+    "Copying CUSTOMERS to SCHSCR40.",
+    "2 member(s) copied.",
+    "PROC DATASETS library=SCHSCR40"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
